@@ -1,0 +1,43 @@
+#holder{
+	display: block;
+	height: 5em;
+	width: 500px;
+	background-color: #5cb87d;
+	margin: auto;
+	margin-top: 10%;
+	color: white;
+	padding-top: 3em;
+	box-shadow: 0px 0px 5px #707070;
+}
+
+.query{
+	display: block;
+	height: 1em;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+#answer{
+	display: block;
+	height: 1em;
+	width: 3em;
+	background-color: #4a96bd;
+	box-shadow: 0px 0px 5px #707070;
+	margin: auto;
+	text-align: center;
+}
+
+#bgvid { 
+	display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    
+}
