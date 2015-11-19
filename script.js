@@ -13,6 +13,8 @@ $(document).ready(function(){
 			}, 2000, function() {
 			// Animation complete.
 			});
+		}else{
+			$("#input").val("Then get outta here");
 		}
 	});
 });
